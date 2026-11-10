@@ -1,0 +1,23 @@
+$ treehouse get
+$ cd -- '/tmp/fm-lab.LZZm1V/wt'
+$ export GOTMPDIR=/tmp/fm-envlab-z1/gotmp
+$ export COMPACT_ADVISER_DISABLE=1
+$ export FM_TASK_ID=envlab-z1
+$ . '/tmp/fm-envlab-z1+a70868eb600c382e9f2e7648e827921fcf677d3d07283e3aae8eaa503bfad6e4/launch.s1794333715.1409467.10380.sh'
+worker-sum=1485831930 50
+worker-id=unset
+worker-gone=unset
+$ printf 'pa%s=%s\n' ne "$(printf %s "$FWD_LIVE" | cksum)"
+pane=1485831930 50
+$ 
+
+
+
+
+
+
+
+
+
+
+

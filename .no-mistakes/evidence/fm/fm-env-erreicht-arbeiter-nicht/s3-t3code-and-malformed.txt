@@ -1,0 +1,6 @@
+== list line is an assignment
+error: config/launch-env-forward must contain one environment name per line, blank lines, or # comments
+rc=1
+== backend t3code with non-empty list
+fm-t3-mcp: no T3 credential at /tmp/fm-lab.LZZm1V/config/t3code-token; the captain signs in with: bin/fm-t3-mcp.mjs login --access full-access
+rc=1

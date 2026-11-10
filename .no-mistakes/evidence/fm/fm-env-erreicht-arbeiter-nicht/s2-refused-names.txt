@@ -1,0 +1,12 @@
+== list: FWD_LIVE FM_TASK_ID
+error: config/launch-env-forward names FM_TASK_ID, which firstmate sets for the worker itself; remove that line
+rc=1
+== list: FWD_LIVE CLAUDE_CONFIG_DIR
+error: config/launch-env-forward names CLAUDE_CONFIG_DIR, which firstmate sets for the worker itself; remove that line
+rc=1
+== list: FWD_LIVE GOTMPDIR
+error: config/launch-env-forward names GOTMPDIR, which firstmate sets for the worker itself; remove that line
+rc=1
+== list: FWD_LIVE SPAWN_CALLER_ENV
+error: config/launch-env-forward names SPAWN_CALLER_ENV, which firstmate sets for the worker itself; remove that line
+rc=1

@@ -1,0 +1,3 @@
+ok - real tmux: fm_backend_tmux_resolve_bare_selector fails for a window that does not exist
+ok - real tmux: ordinary ambient inheritance does not carry a post-server-start export into a freshly created window
+ok - real tmux: a value in the sourced private launch file reaches pane shell and worker, never the pane's history, despite the ambient gap above

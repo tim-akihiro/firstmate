@@ -1,0 +1,18 @@
+treehouse get
+akihiro@claude-ubuntu:/tmp/fm-lab.qlrz9J/projects/proj$ treehouse get
+A new version of treehouse is available: v2.3.0 → v3.1.2
+Run "treehouse update" to update
+
+🌳 Setting up worktree...
+🌳 Entered worktree at ~/.treehouse/proj-6b126d/1/proj. Type 'exit' to return.
+akihiro@claude-ubuntu:~/.treehouse/proj-6b126d/1/proj$ cd -- '/home/akihiro/.treehouse/proj-6b126d/1/proj'
+akihiro@claude-ubuntu:~/.treehouse/proj-6b126d/1/proj$ export GOTMPDIR=/tmp/fm-fwd-live-a1/gotmp
+akihiro@claude-ubuntu:~/.treehouse/proj-6b126d/1/proj$ export COMPACT_ADVISER_DISABLE=1
+akihiro@claude-ubuntu:~/.treehouse/proj-6b126d/1/proj$ export FM_TASK_ID=fwd-live-a1
+akihiro@claude-ubuntu:~/.treehouse/proj-6b126d/1/proj$ . '/tmp/fm-fwd-live-a1+23e075309a4bf5080e0fe755a8679f4adfabae16da128b51e256cb35788a2455/launch.s1794346608.1784339.30994.sh'
+worker-sum=3811119705 56
+
+
+
+
+

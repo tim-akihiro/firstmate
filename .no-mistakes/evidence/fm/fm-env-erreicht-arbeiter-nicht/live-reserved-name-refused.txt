@@ -1,0 +1,4 @@
+$ config/launch-env-forward = FWD_DB_URL, CLAUDE_CONFIG_DIR
+$ bin/fm-spawn.sh fwd-live-b2 ... --mode local-only
+error: config/launch-env-forward names CLAUDE_CONFIG_DIR, which firstmate sets for the worker itself; remove that line
+exit=1

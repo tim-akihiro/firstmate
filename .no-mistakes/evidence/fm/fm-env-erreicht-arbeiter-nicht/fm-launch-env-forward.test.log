@@ -1,0 +1,13 @@
+skip: fish not found; the static syntax check below covers it
+ok - a forwarded value reaches the worker byte for byte through the private launch file only, in sh bash 
+ok - the forward part of the launch file stays within syntax fish parses
+skip: fish not found; the static syntax check above covers the export lines
+ok - a pane that sources the launch file at the literal send, as hc does, gets the value and consumes the file
+ok - config/launch-env-forward refuses names firstmate sets for the worker itself before any pane exists
+ok - a forwarded value survives launch-env-allowlist, and an unset forwarded name stays out even when allowlisted
+ok - an absent, empty, or only-unset config/launch-env-forward leaves the launch file and its handling unchanged
+ok - malformed config/launch-env-forward content refuses the spawn before any pane exists
+ok - a launch file the pane never sourced, could not unlink, or never received is removed and the spawn fails
+ok - a spawn interrupted while its pane has not sourced the launch file removes it and exits with the signal status
+ok - a forwarded META_API_KEY satisfies the muse credential preflight without a login
+# all fm-launch-env-forward tests passed
